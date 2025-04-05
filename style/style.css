@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body{
+    background: #f5f5f5;
+}
+/*Auth Pages*/
+.auth-container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.auth-container h2{
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.auth-container input, .auth-container select{
+    width: 100%;
+    padding:12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.auth-container button{
+    width:100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+/*Dashboard Pages*/
+header{
+    background: #3498db;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+/*Product Grid*/
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill),minmax(250px,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.product-card{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0,2px,5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.product-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.product-card h3{
+    font-size: 16px;
+    margin: 10px 0;
+    color:#2c3e50
+}
+.product-card p{
+    color:#27ae60;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.product-card button{
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Admin Styles*/
+.admin-actions{
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+.admin-actions input{
+    padding:10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+/*Orders Pafe*/
+.orders-container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+.order-item{
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-btn{
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+}

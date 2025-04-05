@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Product Dashboard</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div class="auth-container">
+      <h2>Sign Up</h2>
+      <input type="email" id="email" placeholder="Enter Email">
+      <input type="password" id="password" placeholder="Enter Password">
+      <select id="role">
+        <option value="user">Consumer</option>
+        <option value="admin">Admin</option>
+      </select>
+      <button onclick="signup()">Sign Up</button>
+      <p>Already have an account? <a href="/index.html">Login</a></p>
+    </div>
+    <script src="/authentication/auth.js"></script>
+</body>
+</html>

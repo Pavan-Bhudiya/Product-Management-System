@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashbaord</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome To Admin Dashbaord</h1>
+        <button onclick="logout()">Logout</button>
+        
+    </header>
+    <div class="admin-actions">
+        <input type="text" id="productName" placeholder="Product Name"/>
+        <input type="number" id="productPrice" placeholder="Price of Product"/>
+        <button onclick="addProduct()">Add Product</button>
+    </div>
+    <div class="product-grid" id="adminProducts"></div>
+    <div class="orders-container">
+        <h2>All Orders</h2>
+        <div id="allOrders"></div>
+    </div>
+    <script src="/admin-dashboard/admin-dashboard.js"></script>
+</body>
+</html>
