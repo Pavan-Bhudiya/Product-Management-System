@@ -20,5 +20,5 @@ A role-based (Admin/Consumer) product management system with dynamic UI, real-ti
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![FakeStoreAPI](https://img.shields.io/badge/-FakeStoreAPI-008000)
-![LocalStorage](https://img.shields.io/badge/-LocalStorage-007ACC)
+
 
